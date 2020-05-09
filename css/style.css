@@ -1,0 +1,47 @@
+body{
+    padding: 70px;
+}
+
+/* start navbar */
+.navbar{
+    padding: 0rem 1rem;;
+}
+/* active link */
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link{
+    background-color: #E41B17;
+}
+
+/* link color */
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-lin{
+    color: #AAA;
+}
+
+/* brand color */
+.navbar-dark .navbar-brand{
+    color: #AAA;
+    padding: 0.5rem;
+}
+
+.nav-item .nav-link{
+    padding: 0.5rem;
+}
+
+/* dropdown menu */
+.dropdown-menu{
+    background-color: #333;
+    border-top: 3px solid #E41B17;
+}
+
+.dropdown-item{
+    color: #FFF;
+}
+
+.dropdown-item:focus, .dropdown-item:hover,
+.dropdown-item:focus, .dropdown-item:focus
+{
+    background-color: #E41B17;
+    color: #FFF;
+}
